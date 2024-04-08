@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<style>
+    h3 {
+        font-weight: lighter;
+    }
+.form{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    /* border: 3px solid black; */
+}
+.form2{
+    width: 90%;
+    margin: auto;
+}
+    .inputmain {
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .box1 {
+        width: 50%;
+        float: left;
+    }
+.clear{
+    clear: both;
+}
+   .box1 label:nth-child(1) {
+        margin-left: 45px;
+    }
+   .box2 label:nth-child(1) {
+        margin-left: 45px;
+    }
+
+
+
+   .box3 label:first-child {
+        margin-left: 45px;
+    }
+   .box3 label:last-child {
+        margin-left: 45px;
+    }
+   .box3 label:nth-child(4) {
+        margin-left: 45px;
+    }
+   .box3 label:nth-child(3) {
+        margin-left: 45px;
+    }
+
+
+    input {
+        margin-bottom: 1rem;
+        width: 60%;
+    }
+
+    .box2 {
+        width: 50%;
+        float: left;
+    }
+    .box3 {
+        width: 50%;
+        float: left;
+    }
+    .box4 {
+        width: 50%;
+        float: left;
+    }
+    .inpu{
+        margin-left: 11px;
+        
+    }
+    .inp{
+        margin-left:-10px;
+        
+    }
+    .inpu input{
+        width: 258px;
+    }
+    .inp select{
+        width: 266px;
+        padding: 2px;
+        margin-bottom: 1rem;
+    }
+    .a{
+        margin-left: -4px;
+    }
+    .box4 label{
+        margin-left: 45px;
+    }
+    .box4 input{
+        width: 20px;
+    }
+    .date{
+        width: 180px;
+    }
+     .number  input{
+        width: 40px;
+       
+    }
+    .nation{
+        width: 260px;
+        padding: 1px;
+    }
+    i{
+        margin-left: 510px;
+      
+        font-size: 50px;
+    }
+    button{
+        width: 100%;
+        background-color: black;
+        color: whitesmoke;
+        border: none;
+        padding: 3px;
+    }
+</style>
+
+<body>
+    <div class="form">
+        <i class="fa-solid fa-building-columns"></i>
+        <h3>Welcome to XYZ Bank</h3>
+        <p>--Account Details-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <form action="">
+            <div class="inputmain">
+                <div class="box1">
+                    <label for="">Email*</label>
+                    <input type="text"><br>
+                    <label for="">Repeat email*</label>
+                    <input type="text">
+                </div>
+                <div class="box2">
+                    <label for="">Password*</label>
+                    <input type="password"> <br>
+                    <label for="">Repeat Password*</label>
+                    <input type="password"> <br>
+                </div>
+            </div>
+ <div class="clear"></div>
+</div>
+
+        </form>
+    <div class="form">
+      
+        <p>--Account Details-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+        <form action="">
+            <div class="inputmain">
+                <div class="box3">
+                    <label for="">Name*</label>
+                    <input type="text"><br>
+                    <label for="">Phone*</label>
+                    <input type="input"><br>
+                    <div class="inpu">
+                    <label for="">Street</label>
+                    <input type="input"><br>
+                    <label for="">City*</label>
+                    <input type="input"><br>
+                </div>
+                <div class="inp">
+                    <label for="">country*</label>
+                    <select name="" id="">
+                        <option value="">India</option>
+                    </select>
+                </div>
+                <div class="a">
+                    <label for="">website</label>
+                    <input type="input"><br>
+                </div>
+                </div>
+                <div class="box4">
+                    <label for="">Gender*</label>
+                    <input type="radio">male
+                    <input type="radio">female  <br>
+                    <div class="number">
+                
+                    <label for="">Birthdate*</label>
+                    <select name="" id="" >
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                    <select name="" id="" class="date"><option value="">January</option></select>
+                    <input type="text" class="number"><br>
+            
+                    <label for="">Nationality*</label>
+                    <select name="" id="" class="nation"></select>
+
+            </div><br>
+            </div><br>
+            </div> <br>
+ <button>SUBMIT</button>
+        </form>
+        <div class="clear"></div>
+</body>
+
+</html>

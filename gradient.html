@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gradient.css">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 100%;
+            height: 400px;
+            background-image: linear-gradient(120deg, red,blue,green,yellow);
+            background-repeat: no-repeat;
+        }
+        .box2{
+            width: 100%;
+            height: 400px;
+            background-image: radial-gradient( rgb(255, 0, 0),rgb(208, 255, 0)15%,green 13%,black 67%);
+            background-repeat: no-repeat;
+        }
+        .box3{
+            width: 100%;
+            height: 400px;
+            /* background-image:conic-gradient( red,black,green,blue); */
+            /* background-image:conic-gradient( red 12deg,black 120deg,green 23deg,blue ); */
+            background-image:conic-gradient(from 45deg, red ,black ,green,blue );
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div><img src="img.png" alt=""></div>
+</body>
+</html>

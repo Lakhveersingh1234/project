@@ -1,0 +1,24 @@
+.colors{
+    width: 90%;
+   text-align: center;
+}
+button{
+    padding: 12px;
+    width: 20%;
+    margin: 12px;
+}
+.colors button:nth-child(2){
+    background-color: blue;
+    color: white;
+}
+.colors button:nth-child(3){
+    background-color: green;
+    color: white;
+}
+.colors button:nth-child(4){
+    background-color:red;
+    color: white;
+}
+h1{
+    color: white;
+}

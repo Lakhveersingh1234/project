@@ -1,0 +1,664 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.navbar {
+    margin: auto;
+    padding: 17px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.logo {
+    width: 30%;
+    float: left;
+    margin-top: 11px;
+    text-align: center;
+
+}
+
+.navcontent {
+    width: 70%;
+    float: left;
+
+}
+
+.logo h1 {
+    display: inline;
+}
+
+.navcontent li {
+
+    list-style: none;
+
+
+
+}
+
+.active a {
+    color: #fe2d6b;
+}
+
+a {
+    text-decoration: none;
+    color: #222;
+
+}
+
+.logo2:first-child {
+    color: #fe2d6b;
+}
+
+.btn {
+    background-color: #fe2d6b;
+    color: white;
+    padding: 12px;
+}
+
+.menu {
+    position: relative;
+    display: block;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    margin-left: -62px;
+    margin-top: 12px;
+
+}
+
+.dropdown li {
+    margin-top: 12px;
+    white-space: nowrap;
+}
+
+.menu:hover .dropdown {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* SECTION 2 */
+
+.section2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 112px;
+}
+
+.sectionbox1 {
+    width: 60%;
+    float: left;
+    /* border: 2px solid black; */
+}
+.sectionbox1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #343a40;
+
+}
+
+.sectionbox2 {
+    width:40%;
+    float: left;
+}
+.sectionbox2 img{
+    width: 400px;
+}
+
+.sectionbox1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* SECTION 3 */
+.section3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin: 120px;
+}
+.span1{
+    color: #fe2d6b;
+}
+.section3content{
+    margin-top: 80px;
+}
+
+/* SECTION 4 */
+.section4{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+
+}
+.section3heading{
+    text-align: center;
+}
+.boxes{
+    margin-top: 120px;
+}
+.box1{
+    float: left;
+    width: 33.3%;
+
+}
+.box2{
+    float: left;
+    width: 33.3%;
+}
+.box3{
+    float: left;
+    width: 33.3%;
+}
+.box4{
+    float: left;
+    width: 33.3%;
+}
+.box5{
+    float: left;
+    width: 33.3%;
+}
+.box6{
+    float: left;
+    width: 33.3%;
+}
+.border{
+    padding: 33px;
+}
+h3{
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.border p{
+    float: left;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.icon img{
+    margin-top: 8px;
+}
+.icon{
+    float: left;
+    padding-right: 20px;
+}
+/* FOOTER */
+
+footer {
+    margin-top: 112px;
+}
+
+.footerbox1 {
+    width: 33.3%;
+    float: left;
+    background-color: #222;
+
+}
+
+.footerbox2 {
+    width: 30.3%;
+    float: left;
+    margin-top: 50px;
+
+}
+
+.footerbox3 {
+    width: 36.3%;
+    float: left;
+    margin-top: 50px;
+
+}
+
+.footerborders {
+    padding: 12px;
+    margin: 51px;
+    font-weight: 400;
+}
+
+.footerlogo {
+    font-size: 17px;
+    color: #fe2d6b;
+
+}
+
+.services {
+    color: white;
+}
+
+.footerp {
+    color: white;
+    margin-bottom: 12px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    width: 40%;
+}
+
+.icon {
+    color: white;
+
+}
+
+i {
+    padding: 10px;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.link {
+    width: 40%;
+    float: left;
+    line-height: 2;
+}
+
+.link li {
+    list-style: none;
+    display: grid;
+}
+
+.link a:hover {
+    background-color: #fe2d6b;
+    width: 80%;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.secondlink a:hover {
+    background-color: #fe2d6b;
+    width: 40%;
+    height: 30px;
+    color: white;
+    text-align: center;
+}
+
+.secondlink {
+    width: 60%;
+    float: left;
+    line-height: 2;
+
+}
+
+.secondlink li {
+    list-style: none;
+    display: grid;
+}
+
+.content6 li {
+    list-style: none;
+}
+
+.links i {
+    font-size: 18px;
+    color: black;
+}
+.links a{
+    color: blue;
+}
+
+
+@media screen and (min-width:0px) and (max-width:576px)
+{
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navcontent {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navcontent ul li {
+        text-align: center;
+        margin-top: 20px;
+
+    }
+
+    .btn {
+        padding: 9px;
+    }
+}
+
+/* SECTION 2
+ */
+.section2{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+.sectionbox2 img{
+    width: 100%;
+}
+
+.sectionbox1{
+    width: 100%;
+  
+}
+.sectionbox2{
+    width: 100%;
+}
+.section3heading{
+    width: 100%;
+}
+
+.sectionbox1 h1{
+    font-size: 20px;
+
+}
+
+/* SECTION 3 */
+
+.section3{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+/* SECTION 4 */
+
+.section4{
+    width: 100%;
+    margin: auto;
+}
+.boxes{
+    width: 90%;
+    margin: auto;
+
+}
+.box1{
+    width: 100%;
+    
+}
+
+.section3heading{
+    text-align: center;
+}
+
+.box2{
+
+    width: 100%;
+}
+.box3{
+ 
+    width: 100%;
+}
+.box4{
+
+    width: 100%;
+}
+.box5{
+
+    width: 100%;
+}
+.box6{
+
+    width: 100%;
+}
+
+
+
+
+.icon img{
+    margin-top: 8px;
+}
+
+/* FOOTER */
+
+.footerbox1 {
+    width: 100%;
+
+}
+
+.footerbox2 {
+    width: 100%;
+}
+
+.footerbox3 {
+    width: 100%;
+}
+
+
+@media screen and (min-width:800px) and (max-width:1440px)
+{
+    
+    /* FOOTER */
+    
+    footer {
+        margin-top: 112px;
+    }
+    
+    .footerbox1 {
+        width: 33.3%;
+        float: left;
+        background-color: #222;
+    
+    }
+    
+    .footerbox2 {
+        width: 30.3%;
+        float: left;
+        margin-top: 50px;
+    
+    }
+    
+    .footerbox3 {
+        width: 36.3%;
+        float: left;
+        margin-top: 50px;
+    
+    }
+    
+    .footerborders {
+        padding: 12px;
+        margin: 51px;
+        font-weight: 400;
+    }
+    
+    .footerlogo {
+        font-size: 17px;
+        color: #fe2d6b;
+    
+    }
+    
+    .services {
+        color: white;
+    }
+    
+    .footerp {
+        color: white;
+        margin-bottom: 12px;
+    }
+    
+    .heading {
+        font-weight: 600;
+        font-size: larger;
+        text-align: center;
+        width: 40%;
+    }
+    
+    .icon {
+        color: white;
+    
+    }
+    
+    i {
+        padding: 10px;
+        font-size: small;
+        font-weight: bolder;
+    }
+    
+    .link {
+        width: 40%;
+        float: left;
+        line-height: 2;
+    }
+    
+    .link li {
+        list-style: none;
+        display: grid;
+    }
+    
+    .link a:hover {
+        background-color: #fe2d6b;
+        width: 80%;
+        height: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .secondlink a:hover {
+        background-color: #fe2d6b;
+        width: 40%;
+        height: 30px;
+        color: white;
+        text-align: center;
+    }
+    
+    .secondlink {
+        width: 60%;
+        float: left;
+        line-height: 2;
+    
+    }
+
+
+
+/* SECTION 2 */
+
+.section2 {
+    width: 80%;
+    margin: auto;
+    margin-top: 112px;
+}
+
+.sectionbox1 {
+    width: 60%;
+    float: left;
+    /* border: 2px solid black; */
+}
+.sectionbox1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #343a40;
+
+}
+
+.sectionbox2 {
+    width:40%;
+    float: left;
+}
+.sectionbox2 img{
+    width: 400px;
+}
+
+.sectionbox1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+/* SECTION 3 */
+.section3{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin: 120px;
+}
+.span1{
+    color: #fe2d6b;
+}
+.section3content{
+    margin-top: 80px;
+}
+
+/* SECTION 4 */
+.section4{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+
+}
+.section3heading{
+    text-align: center;
+}
+.boxes{
+    margin-top: 120px;
+}
+.box1{
+    float: left;
+    width: 33.3%;
+
+}
+.box2{
+    float: left;
+    width: 33.3%;
+}
+.box3{
+    float: left;
+    width: 33.3%;
+}
+.box4{
+    float: left;
+    width: 33.3%;
+}
+.box5{
+    float: left;
+    width: 33.3%;
+}
+.box6{
+    float: left;
+    width: 33.3%;
+}
+.border{
+    padding: 33px;
+}
+h3{
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+.border p{
+    float: left;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.icon img{
+    margin-top: 8px;
+}
+.icon{
+    float: left;
+    padding-right: 20px;
+}
+
+
+}
